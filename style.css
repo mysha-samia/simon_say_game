@@ -1,0 +1,61 @@
+body{
+justify-content: center;
+align-content: center;
+background-color: bisque;
+ 
+}
+.container{
+ text-align: center;
+
+}
+.heading{
+    color:blue;
+}
+.box-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    gap:30px;
+
+
+}
+.box{
+
+    height: 150px;
+    width:200px;
+    border:5px,solid,black;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+}
+.box-container1{
+  display: flex;
+  justify-content: center;
+ gap:30px;
+}
+.box-container2{
+    display: flex;
+   justify-content: center;
+   gap:30px;
+}
+.red{
+     background-color: #d95980;
+}
+.yellow{
+ background-color:#f99b45 ;
+}
+.green{
+    background-color: #63aac0; ;
+}
+.purple{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(92, 181, 92); 
+}
+.bgColor{
+    background-color: rgb(165, 59, 59);
+}
